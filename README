@@ -1,0 +1,56 @@
+# SMS-Activate Guru API Automation Script
+
+This repository contains a Python script that automates tasks using the SMS-Activate Guru API. The script is executed with the following command:
+
+python3 run.py
+
+Features:
+- Automates processes using the SMS-Activate Guru API.
+- Simple integration for managing activations via SMS.
+- Flexible configuration to adapt to different environments and needs.
+
+Requirements:
+- Python 3.6 or higher.
+- Necessary Python packages (refer to requirements.txt if available).
+
+Installation:
+1. Clone the repository:
+   git clone https://github.com/your_username/your_repository.git
+2. Navigate to the project directory:
+   cd your_repository
+3. (Optional) Create and activate a virtual environment:
+   python3 -m venv venv
+   source venv/bin/activate  # Linux/Mac
+   venv\Scripts\activate  # Windows
+4. Install the dependencies:
+   pip install -r requirements.txt
+
+Configuration:
+Before running the script, configure your SMS-Activate Guru API credentials. You can do this by:
+- **Configuration File:** Edit a file like config.json to include your credentials and necessary parameters.
+- **Environment Variables:** Set the required environment variables, for example:
+   export SMS_ACTIVATE_API_KEY=your_api_key
+
+Usage:
+To run the script, simply use the command:
+
+python3 run.py
+
+The script will connect to the SMS-Activate Guru API and perform automated tasks, displaying the output in the terminal.
+
+Contributing:
+If you wish to contribute, follow these steps:
+1. Fork the repository.
+2. Create a new branch for your feature:
+   git checkout -b feature/new-feature
+3. Make your changes and commit:
+   git commit -m "Add new feature"
+4. Push the branch to your repository:
+   git push origin feature/new-feature
+5. Open a Pull Request for review.
+
+License:
+This project is distributed under the MIT License. See the LICENSE file for more information.
+
+Contact:
+If you have any questions or suggestions, please open an issue in the repository or contact the author directly.
